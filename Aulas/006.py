@@ -1,0 +1,6 @@
+n = input('Digite um valor: ')
+inteiro = int(n)
+string = str(n)
+flutuando = float(n)
+boleano = bool(n)
+print(n.isalnum())
