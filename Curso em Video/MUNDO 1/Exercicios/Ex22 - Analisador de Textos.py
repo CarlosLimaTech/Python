@@ -1,0 +1,10 @@
+print('='*60)
+print('Analisador de Texto'.center(60))
+print('='*60)
+
+nome = str(input('Digite seu nome completo: ')).strip()
+print('Nome com letras Maiusculas = {}'.format(nome.upper()))
+print('Nome com letras Minusculas = {}'.format(nome.lower()))
+print('Número de letras = {}'.format(len(nome)-nome.count(' ')))
+separa = nome.split()
+print('Número de letras do 1° nome {} = {}'.format(separa[0], len(separa[0])))
